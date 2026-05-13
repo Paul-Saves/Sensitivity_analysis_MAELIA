@@ -4,11 +4,16 @@ ConfigSpace==1.2.2
 adsg-core==1.4.0
 numpy
 pandas
+scipy
 matplotlib
 seaborn
+plotly
 scikit-learn
 xgboost
+SALib
 openturns
+geopandas
+graphviz
 ipython
 pydantic
 numba
