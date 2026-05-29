@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MAELIA Sensitivity Studio</title>
+  <link rel="stylesheet" href="/ui/static/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">MS</div>
+        <div>
+          <h1>MAELIA Sensitivity</h1>
+          <p>Analyse lisible des runs GAMA</p>
+        </div>
+      </div>
+
+      <form id="analysis-form" class="control-panel">
+        <label>
+          Répertoire des logs
+          <input id="log-dir" name="log_dir" type="text" autocomplete="off" spellcheck="false"
+            value="/Users/benjamin/files/Repositories/Sensitivity_analysis_MAELIA/simulations/log_terrainSA"
+            placeholder="/chemin/vers/log_terrainSA" required>
+        </label>
+
+        <label>
+          Dataset exporté (optionnel)
+          <input id="dataset-path" name="dataset_path" type="text" autocomplete="off" spellcheck="false"
+            placeholder="Laisser vide si dataset_metamodel.csv est dans le dossier de logs">
+        </label>
+
+        <div class="field-grid">
+          <label>
+            Classes ANOVA
+            <input id="n-bins" name="n_bins" type="number" min="2" max="8" value="4">
+          </label>
+          <label>
+            Sobol MC
+            <input id="sobol-n-mc" name="sobol_n_mc" type="number" min="200" max="50000" step="100" value="2000">
+          </label>
+          <label>
+            Profondeur arbre
+            <input id="tree-max-depth" name="tree_max_depth" type="number" min="1" max="8" value="4">
+          </label>
+          <label>
+            Graine
+            <input id="random-state" name="random_state" type="number" value="42">
+          </label>
+        </div>
+
+        <fieldset>
+          <legend>Sorties à analyser</legend>
+          <label class="check"><input type="checkbox" name="targets" value="N_lixi" checked> Azote lixivié</label>
+          <label class="check"><input type="checkbox" name="targets" value="dCorg" checked> Carbone organique</label>
+          <label class="check"><input type="checkbox" name="targets" value="rdt" checked> Rendement</label>
+        </fieldset>
+
+        <button id="run-button" type="submit">
+          <span class="button-icon">▶</span>
+          Lancer l'analyse
+        </button>
+      </form>
+
+      <div class="note">
+        <strong>Pré-requis</strong>
+        <p>Le dossier doit contenir ou accompagner un <code>dataset_metamodel.csv</code> exporté par le notebook de simulation. Les logs seuls ne contiennent pas les paramètres du plan.</p>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <section class="status-band" id="status-band">
+        <div>
+          <p class="eyebrow">Prêt</p>
+          <h2>Choisis un dossier de logs pour produire un rapport complet.</h2>
+        </div>
+        <div class="status-indicator" id="status-indicator">En attente</div>
+      </section>
+
+      <section class="summary-grid" id="summary-grid" hidden></section>
+
+      <section class="tabs" id="target-tabs" hidden></section>
+
+      <section class="results" id="results-panel">
+        <div class="empty-state" id="empty-state">
+          <div class="empty-visual"></div>
+          <h3>Les résultats apparaîtront ici</h3>
+          <p>Après le lancement, l’interface affichera les scores R²/Q², les figures principales et le rapport HTML généré.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/ui/static/app.js"></script>
+</body>
+</html>
