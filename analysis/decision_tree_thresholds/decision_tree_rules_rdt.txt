@@ -1,0 +1,88 @@
+|--- cat__n_ferti_0.0 <= 0.5000
+|   |--- cont__Jours_op_recolte <= 49.4798
+|   |   |--- cont__Jours_semis_F1 <= 186.0062
+|   |   |   |--- cat__n_ferti_3.0 <= 0.5000
+|   |   |   |   |--- cont__Jours_F1_F2 <= 36.9831
+|   |   |   |   |   |--- value: [3.7103]
+|   |   |   |   |--- cont__Jours_F1_F2 >  36.9831
+|   |   |   |   |   |--- value: [3.9991]
+|   |   |   |--- cat__n_ferti_3.0 >  0.5000
+|   |   |   |   |--- cont__Jours_semis_F1 <= 137.6727
+|   |   |   |   |   |--- value: [3.8796]
+|   |   |   |   |--- cont__Jours_semis_F1 >  137.6727
+|   |   |   |   |   |--- value: [4.2792]
+|   |   |--- cont__Jours_semis_F1 >  186.0062
+|   |   |   |--- cont__Jours_semis_F1 <= 208.9952
+|   |   |   |   |--- cat__n_ferti_1.0 <= 0.5000
+|   |   |   |   |   |--- value: [4.3872]
+|   |   |   |   |--- cat__n_ferti_1.0 >  0.5000
+|   |   |   |   |   |--- value: [3.9973]
+|   |   |   |--- cont__Jours_semis_F1 >  208.9952
+|   |   |   |   |--- cont__Jours_av_PREPA <= 15.5199
+|   |   |   |   |   |--- value: [4.3883]
+|   |   |   |   |--- cont__Jours_av_PREPA >  15.5199
+|   |   |   |   |   |--- value: [4.5039]
+|   |--- cont__Jours_op_recolte >  49.4798
+|   |   |--- cont__Jours_av_PREPA <= 15.5836
+|   |   |   |--- cont__Jours_op_recolte <= 71.1947
+|   |   |   |   |--- cont__Jours_semis_F1 <= 151.8224
+|   |   |   |   |   |--- value: [3.9239]
+|   |   |   |   |--- cont__Jours_semis_F1 >  151.8224
+|   |   |   |   |   |--- value: [4.3694]
+|   |   |   |--- cont__Jours_op_recolte >  71.1947
+|   |   |   |   |--- cont__Jours_semis_F1 <= 189.6525
+|   |   |   |   |   |--- value: [4.3276]
+|   |   |   |   |--- cont__Jours_semis_F1 >  189.6525
+|   |   |   |   |   |--- value: [4.2764]
+|   |   |--- cont__Jours_av_PREPA >  15.5836
+|   |   |   |--- cont__Jours_semis_F1 <= 128.4505
+|   |   |   |   |--- cont__Jours_op_recolte <= 106.1772
+|   |   |   |   |   |--- value: [4.0643]
+|   |   |   |   |--- cont__Jours_op_recolte >  106.1772
+|   |   |   |   |   |--- value: [4.4956]
+|   |   |   |--- cont__Jours_semis_F1 >  128.4505
+|   |   |   |   |--- cont__Jour_Semis <= 303.5313
+|   |   |   |   |   |--- value: [4.4716]
+|   |   |   |   |--- cont__Jour_Semis >  303.5313
+|   |   |   |   |   |--- value: [4.3799]
+|--- cat__n_ferti_0.0 >  0.5000
+|   |--- cont__Jour_Semis <= 271.9265
+|   |   |--- cont__Jours_av_PREPA <= 15.6044
+|   |   |   |--- cont__Jour_Semis <= 267.6524
+|   |   |   |   |--- cont__Jour_Semis <= 262.5077
+|   |   |   |   |   |--- value: [3.9066]
+|   |   |   |   |--- cont__Jour_Semis >  262.5077
+|   |   |   |   |   |--- value: [3.8347]
+|   |   |   |--- cont__Jour_Semis >  267.6524
+|   |   |   |   |--- cont__Jour_Semis <= 269.4759
+|   |   |   |   |   |--- value: [3.7774]
+|   |   |   |   |--- cont__Jour_Semis >  269.4759
+|   |   |   |   |   |--- value: [3.7328]
+|   |   |--- cont__Jours_av_PREPA >  15.6044
+|   |   |   |--- cont__Jour_Semis <= 264.6088
+|   |   |   |   |--- value: [4.0517]
+|   |   |   |--- cont__Jour_Semis >  264.6088
+|   |   |   |   |--- value: [3.9332]
+|   |--- cont__Jour_Semis >  271.9265
+|   |   |--- cont__Jour_Semis <= 309.7154
+|   |   |   |--- cont__Jour_Semis <= 279.2519
+|   |   |   |   |--- cat__has_prepa_1.0 <= 0.5000
+|   |   |   |   |   |--- value: [3.6037]
+|   |   |   |   |--- cat__has_prepa_1.0 >  0.5000
+|   |   |   |   |   |--- value: [3.7686]
+|   |   |   |--- cont__Jour_Semis >  279.2519
+|   |   |   |   |--- cont__Jours_av_PREPA <= 15.5169
+|   |   |   |   |   |--- value: [3.5407]
+|   |   |   |   |--- cont__Jours_av_PREPA >  15.5169
+|   |   |   |   |   |--- value: [3.6333]
+|   |   |--- cont__Jour_Semis >  309.7154
+|   |   |   |--- cont__Jour_Semis <= 314.5366
+|   |   |   |   |--- cat__has_prepa_1.0 <= 0.5000
+|   |   |   |   |   |--- value: [3.6690]
+|   |   |   |   |--- cat__has_prepa_1.0 >  0.5000
+|   |   |   |   |   |--- value: [3.7349]
+|   |   |   |--- cont__Jour_Semis >  314.5366
+|   |   |   |   |--- cat__has_prepa_1.0 <= 0.5000
+|   |   |   |   |   |--- value: [3.7636]
+|   |   |   |   |--- cat__has_prepa_1.0 >  0.5000
+|   |   |   |   |   |--- value: [3.8329]

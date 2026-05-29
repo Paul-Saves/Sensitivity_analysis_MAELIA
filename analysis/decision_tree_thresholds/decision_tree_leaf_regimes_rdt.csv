@@ -1,0 +1,31 @@
+sortie,leaf_id,n,mean,std,min,max,rules
+rdt,50,919,3.5398748639825897,0.048417895480767144,3.46,3.7,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis <= 309.7 ET Jour_Semis > 279.3 ET Jours_av_PREPA <= 15.52
+rdt,47,160,3.604,0.035620289603631033,3.55,3.68,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis <= 309.7 ET Jour_Semis <= 279.3 ET has_prepa != 1.0
+rdt,51,283,3.6329328621908132,0.07474580384772549,3.495,3.805,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis <= 309.7 ET Jour_Semis > 279.3 ET Jours_av_PREPA > 15.52
+rdt,54,106,3.6668867924528303,0.022703606071751575,3.635,3.7,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis > 309.7 ET Jour_Semis <= 314.5 ET has_prepa != 1.0
+rdt,5,586,3.71122866894198,0.196233836433226,3.46,4.455,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 <= 186 ET n_ferti != 3.0 ET Jours_F1_F2 <= 36.98
+rdt,40,80,3.7281874999999998,0.040112529609157815,3.68,3.835,n_ferti == 0.0 ET Jour_Semis <= 271.9 ET Jours_av_PREPA <= 15.6 ET Jour_Semis > 267.7 ET Jour_Semis > 269.5
+rdt,55,114,3.732456140350877,0.04026596101957189,3.635,3.83,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis > 309.7 ET Jour_Semis <= 314.5 ET has_prepa == 1.0
+rdt,48,154,3.7615909090909088,0.0830931923181777,3.5749999999999997,3.92,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis <= 309.7 ET Jour_Semis <= 279.3 ET has_prepa == 1.0
+rdt,57,121,3.7637603305785126,0.021701391965105454,3.735,3.805,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis > 309.7 ET Jour_Semis > 314.5 ET has_prepa != 1.0
+rdt,39,60,3.774916666666667,0.03972886568178833,3.745,3.9,n_ferti == 0.0 ET Jour_Semis <= 271.9 ET Jours_av_PREPA <= 15.6 ET Jour_Semis > 267.7 ET Jour_Semis <= 269.5
+rdt,58,98,3.8277040816326533,0.03842363136256196,3.72,3.915,n_ferti == 0.0 ET Jour_Semis > 271.9 ET Jour_Semis > 309.7 ET Jour_Semis > 314.5 ET has_prepa == 1.0
+rdt,37,148,3.8353378378378378,0.04734323275622675,3.765,3.97,n_ferti == 0.0 ET Jour_Semis <= 271.9 ET Jours_av_PREPA <= 15.6 ET Jour_Semis <= 267.7 ET Jour_Semis > 262.5
+rdt,8,157,3.8727707006369427,0.2880785121039825,3.465,4.5649999999999995,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 <= 186 ET n_ferti == 3.0 ET Jours_semis_F1 <= 137.7
+rdt,36,70,3.9100714285714284,0.04107692374796668,3.87,4.02,n_ferti == 0.0 ET Jour_Semis <= 271.9 ET Jours_av_PREPA <= 15.6 ET Jour_Semis <= 267.7 ET Jour_Semis <= 262.5
+rdt,20,226,3.9297566371681416,0.31993687999037324,3.465,4.575,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA <= 15.58 ET Jours_op_recolte <= 71.19 ET Jours_semis_F1 <= 151.8
+rdt,43,78,3.9309615384615384,0.04286082651501774,3.815,4.045,n_ferti == 0.0 ET Jour_Semis <= 271.9 ET Jours_av_PREPA > 15.6 ET Jour_Semis > 264.6
+rdt,6,140,3.9798571428571425,0.31422506188551835,3.465,4.56,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 <= 186 ET n_ferti != 3.0 ET Jours_F1_F2 > 36.98
+rdt,13,89,3.9970224719101126,0.2268994559835666,3.505,4.57,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 > 186 ET Jours_semis_F1 <= 209 ET n_ferti == 1.0
+rdt,42,50,4.0492,0.04375674875061539,3.95,4.135,n_ferti == 0.0 ET Jour_Semis <= 271.9 ET Jours_av_PREPA > 15.6 ET Jour_Semis <= 264.6
+rdt,27,103,4.062864077669903,0.32107173618268925,3.565,4.675,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA > 15.58 ET Jours_semis_F1 <= 128.5 ET Jours_op_recolte <= 106.2
+rdt,24,1504,4.275804521276596,0.0820614577849794,4.17,4.625,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA <= 15.58 ET Jours_op_recolte > 71.19 ET Jours_semis_F1 > 189.7
+rdt,9,193,4.283108808290155,0.2584900537559618,3.47,4.7,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 <= 186 ET n_ferti == 3.0 ET Jours_semis_F1 > 137.7
+rdt,23,2182,4.324835013748854,0.16844508382689993,3.465,4.615,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA <= 15.58 ET Jours_op_recolte > 71.19 ET Jours_semis_F1 <= 189.7
+rdt,21,378,4.3687962962962965,0.157218674814362,3.665,4.615,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA <= 15.58 ET Jours_op_recolte <= 71.19 ET Jours_semis_F1 > 151.8
+rdt,31,312,4.37798076923077,0.11530928470961221,3.604999999999999,4.59,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA > 15.58 ET Jours_semis_F1 > 128.5 ET Jour_Semis > 303.5
+rdt,12,189,4.386746031746032,0.19279334942516407,3.61,4.705,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 > 186 ET Jours_semis_F1 <= 209 ET n_ferti != 1.0
+rdt,15,365,4.387630136986301,0.13224213003955557,3.995,4.615,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 > 186 ET Jours_semis_F1 > 209 ET Jours_av_PREPA <= 15.52
+rdt,30,820,4.467908536585366,0.11990909326414069,3.53,4.7,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA > 15.58 ET Jours_semis_F1 > 128.5 ET Jour_Semis <= 303.5
+rdt,28,178,4.494803370786517,0.11076054790233053,4.145,4.7,n_ferti != 0.0 ET Jours_op_recolte > 49.48 ET Jours_av_PREPA > 15.58 ET Jours_semis_F1 <= 128.5 ET Jours_op_recolte > 106.2
+rdt,16,137,4.505912408759124,0.11010559600384137,4.145,4.695,n_ferti != 0.0 ET Jours_op_recolte <= 49.48 ET Jours_semis_F1 > 186 ET Jours_semis_F1 > 209 ET Jours_av_PREPA > 15.52
