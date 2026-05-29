@@ -17,3 +17,5 @@ graphviz
 ipython
 pydantic
 numba
+fastapi
+uvicorn[standard]
